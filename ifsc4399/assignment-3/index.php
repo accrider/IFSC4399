@@ -60,4 +60,27 @@ printBreak();
 echo "7. Remove a part of a string from the beginning: <br />";
 $string_7 = $string_4;
 printSample($string_7);
+$rem_str = "rayy@";
+echo "Result: " . substr($string_7, strpos($string_7, $rem_str) + strlen($rem_str));
+printBreak();
+
+echo "8. Insert a string at the specified position. Insert 'quick' between 'The' and 'brown'. <br />";
+$string_8 = "The brown fox";
+printSample($string_8);
+$insert = "quick ";
+echo "Insert string: {$insert}<br />";
+echo "Result: " . substr_replace($string_8, $insert, strpos($string_8,"brown"), 0);
+printBreak();
+
+echo "9. Remove all leading zeros from a string:<br />";
+$string_9 = "000547023.24";
+printSample($string_9);
+echo "Result: " . ltrim($string_9, "0");
+printBreak();
+
+echo "10. Remove part of a string. Remove 'fox' from the string:<br />";
+$string_10 = "the quick brown fox jumps over the lazy dog";
+printSample($string_10);
+echo "Result: " . str_replace("fox ", "", $string_10);
+
 ?>

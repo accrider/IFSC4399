@@ -54,7 +54,7 @@ echo "6. Replace the first \"the\" of the following string with \"That\": <br />
 $string_6 = "the quick brown fox jumps over the lazy dog.";
 printSample($string_6);
 $rep = "the"; // Set the replacement as a variable so it's easy to change later
-echo "Result: " . substr_replace($string_6, "That", strpos($rep), strpos($rep) + strlen($rep));
+echo "Result: " . substr_replace($string_6, "That", strpos($string_6,$rep), strpos($string_6,$rep) + strlen($rep));
 printBreak();
 
 echo "7. Remove a part of a string from the beginning: <br />";

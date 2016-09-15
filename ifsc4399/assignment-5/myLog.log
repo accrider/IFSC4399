@@ -1,0 +1,10 @@
+2016-09-15T16:39:02-05:00 Bauer [main] TRACE Beginning datatype-validation-test... 
+2016-09-15T16:39:05-05:00 Bauer [main] TRACE Beginning datatype-validation-test... 
+2016-09-15T16:39:05-05:00 Bauer [main] DEBUG Invalid Boolean - entered value = asdf 
+2016-09-15T16:39:05-05:00 Bauer [main] DEBUG Invalid Email - entered value =  
+2016-09-15T16:39:05-05:00 Bauer [main] DEBUG Invalid Floating Number - entered value =  
+2016-09-15T16:39:05-05:00 Bauer [main] DEBUG Invalid Integer - entered value =  
+2016-09-15T16:39:05-05:00 Bauer [main] DEBUG Invalid IP Address - entered value =  
+2016-09-15T16:39:05-05:00 Bauer [main] DEBUG Invalid URL - entered value =  
+2016-09-15T16:39:05-05:00 Bauer [main] DEBUG Invalid Date - entered value =  
+2016-09-15T16:39:05-05:00 Bauer [main] DEBUG Invalid Date - entered value =  

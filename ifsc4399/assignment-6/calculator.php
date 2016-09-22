@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Data Type Validation">
+    <meta name="description" content="Calculator Data Validation">
     <meta name="keywords" content="HTML, CSS, PHP, Validation">
-    <meta name="author" content="Bruce Bauer">
+    <meta name="author" content="Adam Crider">
     <link rel="stylesheet" type="text/css" href="./assets/style/site.css" />
     <title>Data Type Validation</title>
 

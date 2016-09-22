@@ -1,0 +1,18 @@
+.danger {
+    color: red;
+}
+
+.form-group {
+    padding: 10px 0 10px 0;
+}
+
+.form-group ul.form-list {
+    padding: 0;
+    list-style-type: none;
+    display: inline;
+}
+
+.form-group ul.form-list li {
+    display: inline;
+    padding-right: 10px;
+}

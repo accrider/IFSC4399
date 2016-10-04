@@ -1,0 +1,41 @@
+.header {
+    padding: 10px;
+}
+
+.row {
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+}
+
+.form-item {
+    padding: 0 0 10px 0;
+}
+
+.danger {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+    border-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+table th {
+    background-color: green;
+    padding: 8px 12px;
+    color: white;
+}
+
+table td {
+    padding: 6px 12px;
+}
+
+table tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+table tr:hover {
+    background-color: lightslategray;
+}

@@ -1,0 +1,100 @@
+2016-09-27T17:34:32-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-27T17:34:33-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-27T17:34:36-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-27T17:36:17-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-27T17:36:17-05:00 Adam [main] TRACE Undefined variable: op1 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 25 
+2016-09-27T17:38:07-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-27T17:38:07-05:00 Adam [main] TRACE Undefined variable: op1 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 25 
+2016-09-27T17:38:07-05:00 Adam [main] DEBUG Entered value: Invalid Integer 
+2016-09-27T17:38:09-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-27T17:38:09-05:00 Adam [main] TRACE Undefined variable: op1 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 25 
+2016-09-27T17:38:09-05:00 Adam [main] DEBUG Entered value: Invalid Integer 
+2016-09-27T17:38:21-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-27T17:38:24-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-27T17:38:25-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:44:40-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:45:02-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:47:42-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:47:42-05:00 Adam [main] TRACE Undefined offset: 6 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 33 
+2016-09-29T16:47:42-05:00 Adam [main] TRACE Undefined offset: 2 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 33 
+2016-09-29T16:47:42-05:00 Adam [main] TRACE Undefined offset: 7 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 33 
+2016-09-29T16:47:42-05:00 Adam [main] TRACE Undefined offset: 3 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 66 
+2016-09-29T16:47:42-05:00 Adam [main] TRACE Undefined offset: 4 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 66 
+2016-09-29T16:47:42-05:00 Adam [main] TRACE Undefined offset: 5 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 66 
+2016-09-29T16:47:42-05:00 Adam [main] TRACE Undefined offset: 8 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 66 
+2016-09-29T16:47:42-05:00 Adam [main] TRACE Undefined offset: 9 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 66 
+2016-09-29T16:47:42-05:00 Adam [main] TRACE Undefined offset: 10 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 66 
+2016-09-29T16:47:42-05:00 Adam [main] TRACE Undefined offset: 11 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 66 
+2016-09-29T16:47:42-05:00 Adam [main] TRACE Undefined offset: 12 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 66 
+2016-09-29T16:48:02-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:48:02-05:00 Adam [main] TRACE Array to string conversion in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 24 
+2016-09-29T16:48:02-05:00 Adam [main] TRACE Undefined offset: 7 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 34 
+2016-09-29T16:48:02-05:00 Adam [main] TRACE Undefined offset: 10 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 34 
+2016-09-29T16:48:02-05:00 Adam [main] TRACE Undefined offset: 4 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 34 
+2016-09-29T16:48:02-05:00 Adam [main] TRACE Undefined offset: 6 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 34 
+2016-09-29T16:48:02-05:00 Adam [main] TRACE Undefined offset: 2 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:48:02-05:00 Adam [main] TRACE Undefined offset: 3 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:48:02-05:00 Adam [main] TRACE Undefined offset: 5 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:48:02-05:00 Adam [main] TRACE Undefined offset: 8 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:48:02-05:00 Adam [main] TRACE Undefined offset: 9 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:48:02-05:00 Adam [main] TRACE Undefined offset: 11 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:48:02-05:00 Adam [main] TRACE Undefined offset: 12 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:48:36-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:48:36-05:00 Adam [main] TRACE Undefined offset: 7 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 34 
+2016-09-29T16:48:36-05:00 Adam [main] TRACE Undefined offset: 9 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 34 
+2016-09-29T16:48:36-05:00 Adam [main] TRACE Undefined offset: 8 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 34 
+2016-09-29T16:48:36-05:00 Adam [main] TRACE Undefined offset: 2 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:48:36-05:00 Adam [main] TRACE Undefined offset: 3 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:48:36-05:00 Adam [main] TRACE Undefined offset: 4 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:48:36-05:00 Adam [main] TRACE Undefined offset: 5 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:48:36-05:00 Adam [main] TRACE Undefined offset: 6 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:48:36-05:00 Adam [main] TRACE Undefined offset: 10 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:48:36-05:00 Adam [main] TRACE Undefined offset: 11 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:48:36-05:00 Adam [main] TRACE Undefined offset: 12 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:50:08-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:50:08-05:00 Adam [main] TRACE Undefined offset: 12 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:50:42-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:50:42-05:00 Adam [main] TRACE Undefined offset: 12 in C:\wamp\www\IFSC4399\ifsc4399\assignment-7\index.php line: 67 
+2016-09-29T16:51:18-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:51:19-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:51:22-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:51:26-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:52:48-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:52:55-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:53:23-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:53:25-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:53:25-05:00 Adam [main] DEBUG Entered value: Invalid Integer 
+2016-09-29T16:53:27-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:53:31-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-09-29T16:53:45-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-10-13T14:35:00-05:00  [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-10-13T14:35:02-05:00 Adam [main] TRACE Beginning Dice Roll Freqency assignment. 
+2016-10-13T14:38:38-05:00 Adam [main] TRACE Beginning List Contacts... 
+2016-10-13T14:38:38-05:00 Adam [main] TRACE List Contacts - SQL=SELECT * FROM Contacts ORDER BY Lastname, FirstName 
+2016-10-13T14:38:38-05:00 Adam [main] FATAL Call to undefined function mysqli_connect() in C:\data\IFSC4399\ifsc4399\assignment-8\contacts-list.php line: 17 
+2016-10-13T14:38:53-05:00 Bauer [main] TRACE Beginning List Contacts... 
+2016-10-13T14:38:53-05:00 Bauer [main] TRACE List Contacts - SQL=SELECT * FROM Contacts ORDER BY Lastname, FirstName 
+2016-10-13T14:38:53-05:00 Bauer [main] FATAL Call to undefined function mysqli_connect() in C:\data\IFSC4399\ifsc4399\assignment-8\contacts-list.php line: 17 
+2016-10-13T14:38:56-05:00 Bauer [main] TRACE Beginning List Contacts... 
+2016-10-13T14:38:56-05:00 Bauer [main] TRACE List Contacts - SQL=SELECT * FROM Contacts ORDER BY Lastname, FirstName 
+2016-10-13T14:38:56-05:00 Bauer [main] FATAL Call to undefined function mysqli_connect() in C:\data\IFSC4399\ifsc4399\assignment-8\contacts-list.php line: 17 
+2016-10-13T14:38:56-05:00 Bauer [main] TRACE Beginning List Contacts... 
+2016-10-13T14:38:56-05:00 Bauer [main] TRACE List Contacts - SQL=SELECT * FROM Contacts ORDER BY Lastname, FirstName 
+2016-10-13T14:38:56-05:00 Bauer [main] FATAL Call to undefined function mysqli_connect() in C:\data\IFSC4399\ifsc4399\assignment-8\contacts-list.php line: 17 
+2016-10-13T14:38:57-05:00 Bauer [main] TRACE Beginning List Contacts... 
+2016-10-13T14:38:57-05:00 Bauer [main] TRACE List Contacts - SQL=SELECT * FROM Contacts ORDER BY Lastname, FirstName 
+2016-10-13T14:38:57-05:00 Bauer [main] FATAL Call to undefined function mysqli_connect() in C:\data\IFSC4399\ifsc4399\assignment-8\contacts-list.php line: 17 
+2016-10-13T14:38:57-05:00 Bauer [main] TRACE Beginning List Contacts... 
+2016-10-13T14:38:57-05:00 Bauer [main] TRACE List Contacts - SQL=SELECT * FROM Contacts ORDER BY Lastname, FirstName 
+2016-10-13T14:38:57-05:00 Bauer [main] FATAL Call to undefined function mysqli_connect() in C:\data\IFSC4399\ifsc4399\assignment-8\contacts-list.php line: 17 
+2016-10-13T14:41:37-05:00 Bauer [main] TRACE Beginning List Contacts... 
+2016-10-13T14:41:37-05:00 Bauer [main] TRACE List Contacts - SQL=SELECT * FROM Contacts ORDER BY Lastname, FirstName 
+2016-10-13T14:41:37-05:00 Bauer [main] FATAL Call to undefined function mysqli_connect() in C:\data\IFSC4399\ifsc4399\assignment-8\contacts-list.php line: 17 
+2016-10-13T14:41:38-05:00 Bauer [main] TRACE Beginning List Contacts... 
+2016-10-13T14:41:38-05:00 Bauer [main] TRACE List Contacts - SQL=SELECT * FROM Contacts ORDER BY Lastname, FirstName 
+2016-10-13T14:41:38-05:00 Bauer [main] FATAL Call to undefined function mysqli_connect() in C:\data\IFSC4399\ifsc4399\assignment-8\contacts-list.php line: 17 
+2016-10-13T14:41:38-05:00 Bauer [main] TRACE Beginning List Contacts... 
+2016-10-13T14:41:38-05:00 Bauer [main] TRACE List Contacts - SQL=SELECT * FROM Contacts ORDER BY Lastname, FirstName 
+2016-10-13T14:41:38-05:00 Bauer [main] FATAL Call to undefined function mysqli_connect() in C:\data\IFSC4399\ifsc4399\assignment-8\contacts-list.php line: 17 
+2016-10-13T14:48:33-05:00 Bauer [main] TRACE Beginning List Contacts... 
+2016-10-13T14:48:33-05:00 Bauer [main] TRACE List Contacts - SQL=SELECT * FROM Contacts ORDER BY Lastname, FirstName 

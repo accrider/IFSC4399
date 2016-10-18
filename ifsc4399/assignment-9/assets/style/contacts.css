@@ -1,0 +1,49 @@
+.formerror {
+    color: #FF0000;
+    display: inline-block; 
+    text-align: left;
+}
+
+.formlabel {
+    display: inline-block; 
+    width: 150px;
+    text-align: right;
+}
+
+.forminput {
+    display: inline-block; 
+    width: 190px;
+    text-align: left;
+    }
+
+.formcontainer {
+    width: 1000px;
+    padding: 5px;
+}
+
+.error {
+    color: red;
+}
+
+h1 {
+    border-bottom: 3px solid #cc9900;
+    color: #996600;
+    font-size: 30px;
+}
+
+table, th , td  {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+    font-size: 14px;
+}
+
+table tr:nth-child(odd)	{
+    background-color: #f1f1f1;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+table tr:hover {background-color: lightgrey}

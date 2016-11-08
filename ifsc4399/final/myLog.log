@@ -1,0 +1,130 @@
+2016-11-03T17:15:32-05:00  [main] TRACE Undefined index: contacttable in C:\data\IFSC4399\ifsc4399\final\bm-page-form.php line: 15 
+2016-11-03T17:15:32-05:00  [main] TRACE Undefined index: lastname in C:\data\IFSC4399\ifsc4399\final\bm-page-form.php line: 20 
+2016-11-03T17:15:32-05:00  [main] TRACE Undefined index: lastnameErr in C:\data\IFSC4399\ifsc4399\final\bm-page-form.php line: 21 
+2016-11-03T17:16:32-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=SELECT * FROM Contacts ORDER by LastName, FirstName LIMIT 15 OFFSET 0 
+2016-11-03T17:16:32-05:00 accrider@ualr.edu [main] FATAL runSQL Error: SQL Excecution failed: Table 'bm.Contacts' doesn't exist 
+2016-11-03T17:16:32-05:00 accrider@ualr.edu [main] WARN mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 95 
+2016-11-03T17:18:28-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=SELECT * FROM Contacts ORDER by LastName, FirstName LIMIT 15 OFFSET 0 
+2016-11-03T17:18:28-05:00 accrider@ualr.edu [main] FATAL Call to undefined function ConvertISOtoShortDate() in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 129 
+2016-11-03T17:18:40-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=SELECT * FROM Contacts ORDER by LastName, FirstName LIMIT 15 OFFSET 0 
+2016-11-03T17:18:40-05:00 accrider@ualr.edu [main] FATAL Call to undefined function ConvertISOtoShortDate() in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 129 
+2016-11-03T17:21:10-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:21:11-05:00 accrider@ualr.edu [main] FATAL runSQL Error: SQL Excecution failed: Table 'db1.tblBookmarks' doesn't exist 
+2016-11-03T17:21:11-05:00 accrider@ualr.edu [main] WARN mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 95 
+2016-11-03T17:22:48-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:22:48-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 122 
+2016-11-03T17:22:48-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 123 
+2016-11-03T17:22:48-05:00 accrider@ualr.edu [main] TRACE Undefined index: CompanyName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 124 
+2016-11-03T17:22:48-05:00 accrider@ualr.edu [main] TRACE Undefined index: Address in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 125 
+2016-11-03T17:22:48-05:00 accrider@ualr.edu [main] TRACE Undefined index: City in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 126 
+2016-11-03T17:22:48-05:00 accrider@ualr.edu [main] TRACE Undefined index: State in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 127 
+2016-11-03T17:22:48-05:00 accrider@ualr.edu [main] TRACE Undefined index: Zip in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 128 
+2016-11-03T17:22:48-05:00 accrider@ualr.edu [main] FATAL Call to undefined function ConvertISOtoShortDate() in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 129 
+2016-11-03T17:26:17-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:26:18-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:18-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:18-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:18-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:18-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:18-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:18-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:18-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:18-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:18-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:18-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:18-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:33-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:26:33-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:33-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:33-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:33-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:33-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:33-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:33-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:33-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:33-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:33-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:33-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:33-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:34-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:35-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:26:35-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:35-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:35-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:35-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:35-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:35-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:35-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:35-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:35-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:35-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:35-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:35-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:35-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:26:36-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:36-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:36-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:36-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:36-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:36-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:36-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:36-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:26:36-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 113 
+2016-11-03T17:26:36-05:00 accrider@ualr.edu [main] TRACE Undefined index: FirstName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 114 
+2016-11-03T17:26:36-05:00 accrider@ualr.edu [main] TRACE Undefined index: LastName in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 115 
+2016-11-03T17:26:36-05:00 accrider@ualr.edu [main] TRACE Undefined index: Salary in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-03T17:27:10-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:27:10-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:27:10-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:27:10-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:27:10-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:27:10-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:27:10-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:27:10-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:27:32-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:27:32-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:27:32-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:27:32-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:27:51-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:27:51-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:27:51-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:27:51-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:27:51-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:27:52-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:27:52-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:27:52-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:29:04-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:29:05-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:29:05-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:29:05-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:29:07-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:29:07-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:29:07-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:29:07-05:00 accrider@ualr.edu [main] TRACE Undefined index: PKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 112 
+2016-11-03T17:29:36-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-03T17:30:12-05:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 

@@ -64,7 +64,7 @@ function isValidInt($var) {
     }
 
     //Note: Special case for filter_var and zero values
-    if (filter_var($var, FILTER_VALIDATE_INT) === 0 || filter_var($var, FILTER_VALIDATE_INT)) {
+    if (filter_var($var, FILTER_VALIDATE_INT) === 0 || !filter_var($var, FILTER_VALIDATE_INT) === false) {
         return "";
     } else {
         return "Invalid Integer";
@@ -105,7 +105,7 @@ function isValidURL($var) {
     }
 }
 
-function isValidDate ($var) {
+function isValidShortDate ($var) {
     //Returns blank error message for a valid date (mm/dd/yy or mm/dd/yyyy)
     //Returns error message for an invalid date
     
@@ -141,7 +141,7 @@ function isValidDate ($var) {
     }
 }
 
-function isValidHTMLDate ($var) {
+function isValidISODate ($var) {
     //Returns blank error message for a valid date (yyyy-mm-dd or yy-mm-dd)
     //Returns error message for an invalid date
 
@@ -173,6 +173,43 @@ function isValidHTMLDate ($var) {
         }
     } else {
         return "Invalid Date";
+    }
+}
+
+function ConvertISOtoShortDate($isodate){
+    // Input format: yyyy-mm-dd or yy-mm-dd
+    // Returns: mm/dd/yy or mm/dd/yyyy
+    // Be sure to run isValidISODate 
+    
+    if ($isodate == "") { return "";}
+    $tmpDate = explode("-", $isodate);
+    return $tmpDate[1] . "/" . $tmpDate[2] . "/" . $tmpDate[0];
+}
+
+function ConvertShorttoISODate($shortdate){
+    // Input format: mm/dd/yy or mm/dd/yyyy
+    // Return: yy-mm-dd or yyyy-mm-dd
+    // Be sure to run isValidShortDate 
+    
+    if ($shortdate == "") { return "";}
+    $tmpDate = explode("/", $shortdate);
+    return $tmpDate[2] . "/" . $tmpDate[0] . "/" . $tmpDate[1];
+}
+
+function isRequiredString($var) {
+    //Returns blank error message for a valid string with at least 1 character
+    //Returns error message for an empty string
+    
+    //Check for unsafe characters
+    $msg = isSantizeString($var);
+    if ($msg != "") {
+        return $msg;
+    }
+
+    if (strlen($var) > 0) {
+        return "";
+    } else {
+        return "Required";
     }
 }
 

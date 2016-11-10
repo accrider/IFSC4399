@@ -1,4 +1,6 @@
 <?php
+
+$_SESSION['userPKID'] = 1;
 function runSQL($sql) {
     global $logger;
     

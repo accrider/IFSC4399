@@ -7,9 +7,9 @@ $_SESSION['username'] = 'accrider@ualr.edu';
 $_SESSION['userPKID'] = 1;
 
 // reset the Globals
-$GLOBALS['lastname'] = "";
-$GLOBALS['lastnameErr'] = "";
-$GLOBALS['contacttable'] = "";
+$GLOBALS['search'] = "";
+$GLOBALS['searchErr'] = "";
+$GLOBALS['bookmarkTable'] = "";
 
 //Singlel Quote
 $sq = "'";
@@ -18,39 +18,39 @@ $sq = "'";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     //  Get Last Name value and error message
-    $GLOBALS['lastname'] = GetFromPOST("txtlastname");
-    $GLOBALS['lastnameErr'] = isSantizeString($GLOBALS['lastname']);
+    $GLOBALS['search'] = GetFromPOST("txtsearch");
+    $GLOBALS['searchErr'] = isSantizeString($GLOBALS['search']);
 
     // If no errors, determine which button was clicked
-    if ($GLOBALS['lastnameErr'] == "") {
+    if ($GLOBALS['searchErr'] == "") {
         
         // Search Button
         if (GetFromPost("btnSearch") == "Search") {
             $_SESSION['offset'] = 0;
-            $sql = SelectContactList();
+            $sql = SelectBookmarkList();
             $result = RunSQL($sql);
-            FormatContactList($result);
+            FormatBookmarkList($result);
         }
 
         // Next Botton
         if (GetFromPost("btnNext") == "Next") {
             // Add the pagesize to the offset to get to the next page
             $_SESSION['offset'] = $_SESSION['offset'] + $_SESSION['pagesize'];
-            $sql = SelectContactList();
+            $sql = SelectBookmarkList();
             $result = RunSQL($sql);
-            FormatContactList($result);
+            FormatBookmarkList($result);
             // If no records were returned, then back up a page
-            if ($GLOBALS['contacttable'] == "0 records found") {
+            if ($GLOBALS['bookmarkTable'] == "0 records found") {
                 $_SESSION['offset'] = $_SESSION['offset'] - $_SESSION['pagesize'];
-                $sql = SelectContactList();
+                $sql = SelectBookmarkList();
                 $result = RunSQL($sql);
-                FormatContactList($result);
+                FormatBookmarkList($result);
             }
         }
         
         // Add Button - redirect to Edit page with no parameters
         if (GetFromPost("btnAdd") == "Add"){
-            header("Location: contacts-edit.php");
+            header("Location: bm-edit.php");
         }
 
         // Previous Button
@@ -60,9 +60,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if ($_SESSION['offset'] < 0) { 
                 $_SESSION['offset'] = 0; 
             }
-            $sql = SelectContactList();
+            $sql = SelectBookmarkList();
             $result = RunSQL($sql);
-            FormatContactList($result);
+            FormatBookmarkList($result);
         }
 
     } 
@@ -81,12 +81,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION['pagesize'] = 15;
     
     // Display the page
-    $sql = SelectContactList();
+    $sql = SelectBookmarkList();
     $result = RunSQL($sql);
-    FormatContactList($result);
+    FormatbookMarkList($result);
 }
 
-function FormatContactList($result) {    
+function FormatBookmarkList($result) {    
 
     $sq = "'";
     $dq = '"';
@@ -97,41 +97,41 @@ function FormatContactList($result) {
     if ($recordcount > 0) {
         
         // Table Headers
-        $GLOBALS['contacttable'] = "<table>";
-        $GLOBALS['contacttable'] .= "<tr>";
-        $GLOBALS['contacttable'] .= "<th>Edit</th>";
-        $GLOBALS['contacttable'] .= "<th>Title</th>";
-        $GLOBALS['contacttable'] .= "<th>URL</th>";
-        $GLOBALS['contacttable'] .= "<th>Tags</th>";
-        $GLOBALS['contacttable'] .= "</tr>";
+        $GLOBALS['bookmarkTable'] = "<table>";
+        $GLOBALS['bookmarkTable'] .= "<tr>";
+        $GLOBALS['bookmarkTable'] .= "<th>Edit</th>";
+        $GLOBALS['bookmarkTable'] .= "<th>Title</th>";
+        $GLOBALS['bookmarkTable'] .= "<th>URL</th>";
+        $GLOBALS['bookmarkTable'] .= "<th>Tags</th>";
+        $GLOBALS['bookmarkTable'] .= "</tr>";
 
         // output data of each row
         while($row = mysqli_fetch_assoc($result)) {
-            $GLOBALS['contacttable'] .= "<tr><td>";
+            $GLOBALS['bookmarkTable'] .= "<tr><td>";
             // Notice a link is built with the PKID to pass to contacts-edit.php
-            $GLOBALS['contacttable'] .= ($row["userPKID"] == $_SESSION["userPKID"] ? "<a href='edit.php?id=" . $row["PKID"] . "'>Edit</a>" : "")          . "</td><td>";
-            $GLOBALS['contacttable'] .= $row["Title"]      . "</td><td>";
-            $GLOBALS['contacttable'] .= $row["URL"]       . "</td><td>";
-            $GLOBALS['contacttable'] .= $row["Tags"]         . "</td>";
+            $GLOBALS['bookmarkTable'] .= ($row["userPKID"] == $_SESSION["userPKID"] ? "<a href='bm-edit.php?pkid=" . $row["PKID"] . "'>Edit</a>" : "")          . "</td><td>";
+            $GLOBALS['bookmarkTable'] .= $row["Title"]      . "</td><td>";
+            $GLOBALS['bookmarkTable'] .= $row["URL"]       . "</td><td>";
+            $GLOBALS['bookmarkTable'] .= $row["Tags"]         . "</td>";
         }
 
         // Finish table
-        $GLOBALS['contacttable'] .= "</table>";
+        $GLOBALS['bookmarkTable'] .= "</table>";
 
     } else {
 
-        $GLOBALS['contacttable'] = "0 records found";
+        $GLOBALS['bookmarkTable'] = "0 records found";
     }
 }
 
-function SelectContactList ()  {
+function SelectBookMarkList ()  {
     $sq = "'";
     
     // If a last name is present, then use a "LIKE" clause
-    if ($GLOBALS['lastname'] == "") {
+    if ($GLOBALS['search'] == "") {
         $sql = "select * from tblBookmarks LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
     } else {
-        $sql = "SELECT * FROM Contacts WHERE LastName LIKE " . $sq . $GLOBALS['lastname'] . "%" . $sq . " ORDER BY Lastname, FirstName" . " LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
+        $sql = "SELECT * FROM tblBookmarks WHERE Title LIKE " . $sq . $GLOBALS['search'] . "%" . $sq . " LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
     }
     return $sql;
 }

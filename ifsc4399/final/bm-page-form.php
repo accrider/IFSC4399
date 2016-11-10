@@ -12,13 +12,13 @@
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
     <div class="formcontainer">
     <h1>Contacts</h1>
-    <?php echo $GLOBALS['contacttable']; ?><br><br>
+    <?php echo $GLOBALS['bookmarkTable']; ?><br><br>
     <input type="submit" name="btnPrevious" value="Previous">
     <input type="submit" name="btnNext" value="Next">
     <input type="submit" name="btnAdd" value="Add"><br><br>
     <span class="formlabel">Search for Last Name: </span>
-    <span class="forminput"><input type="text" name="txtlastname" value="<?php echo $GLOBALS['lastname'];?>"></span>
-    <span class="formerror"> * <?php echo $GLOBALS['lastnameErr'];?></span><br><br>
+    <span class="forminput"><input type="text" name="txtsearch" value="<?php echo $GLOBALS['search'];?>"></span>
+    <span class="formerror"> * <?php echo $GLOBALS['searchErr'];?></span><br><br>
     <input type="submit" name="btnSearch" value="Search"><br><br>
     </div>
 </form>

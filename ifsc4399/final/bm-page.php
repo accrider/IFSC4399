@@ -16,7 +16,9 @@ $sq = "'";
 
 // Is this a postback
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
+    if (GetFromPost("btnProfile") == "Edit My Profile") {
+            header("Location: bm-profile.php");
+    }
     //  Get Last Name value and error message
     $GLOBALS['search'] = GetFromPOST("txtsearch");
     $GLOBALS['searchErr'] = isSantizeString($GLOBALS['search']);
@@ -131,7 +133,11 @@ function SelectBookMarkList ()  {
     if ($GLOBALS['search'] == "") {
         $sql = "select * from tblBookmarks LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
     } else {
-        $sql = "SELECT * FROM tblBookmarks WHERE Title LIKE " . $sq . $GLOBALS['search'] . "%" . $sq . " LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
+        if (GetFromPost("pubpriv") == "private") {
+            $sql = "SELECT * FROM tblBookmarks WHERE tags LIKE " . $sq . $GLOBALS['search'] . "%" . $sq . " and userPKID = " . $_SESSION['userPKID'] ." LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
+        } else {
+            $sql = "SELECT * FROM tblBookmarks WHERE tags LIKE " . $sq . $GLOBALS['search'] . "%" . $sq . " LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
+        }
     }
     return $sql;
 }

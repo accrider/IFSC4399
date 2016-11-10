@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             "Tags=" . $sq . $GLOBALS['tags'] . $sq . ", " .
             "Comments=" . $sq . $GLOBALS['comments'] . $sq 
             . " WHERE PKID=" . $GLOBALS['PKID'];            
-            print($sql);
+            //print($sql);
             // Run the Update SQL
             $result = RunSQL($sql);
 
@@ -193,9 +193,9 @@ function ValidateBookmark() {
    
     // Validate all of the fields and set the appropriate error messages
     $GLOBALS['titleErr'] = isRequiredString($GLOBALS['title']);
-    $GLOBALS['URLErr'] = isRequiredString($GLOBALS['URL']);
-    $GLOBALS['tagsErr'] = isRequiredString($GLOBALS['tags']);
-    $GLOBALS['commentsErr'] = isRequiredString($GLOBALS['comments']);
+    $GLOBALS['URLErr'] = isValidURL($GLOBALS['URL']);
+    $GLOBALS['tagsErr'] = isSantizeString($GLOBALS['tags']);
+    $GLOBALS['commentsErr'] = isSantizeString($GLOBALS['comments']);
     
     // if any errors are present, then set the error message
     if ($GLOBALS['titleErr'] == "" && 

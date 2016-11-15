@@ -31,7 +31,8 @@
         <span class="error"><?php echo $GLOBALS['errorMessage'] ?></span>
         </p>
         <p>
-        <?php echo $GLOBALS['buttons'] ?>
+        <input type="submit" name="btnSignup" value="Signup"> 
+        <input type="submit" name="btnCancel" value="Cancel">
         </p>
     </div>
 </form>

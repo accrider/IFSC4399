@@ -137,9 +137,9 @@ function SelectBookMarkList ()  {
         $sql = "select * from tblBookmarks LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
     } else {
         if (GetFromPost("pubpriv") == "private") {
-            $sql = "SELECT * FROM tblBookmarks WHERE tags LIKE " . $sq . $GLOBALS['search'] . "%" . $sq . " and userPKID = " . $_SESSION['userPKID'] ." LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
+            $sql = "SELECT * FROM tblBookmarks WHERE tags LIKE " . $sq . "%" . $GLOBALS['search'] . "%" . $sq . " and userPKID = " . $_SESSION['userPKID'] ." LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
         } else {
-            $sql = "SELECT * FROM tblBookmarks WHERE tags LIKE " . $sq . $GLOBALS['search'] . "%" . $sq . " LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
+            $sql = "SELECT * FROM tblBookmarks WHERE tags LIKE " . $sq . "%" . $GLOBALS['search'] . "%" . $sq . " LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
         }
     }
     return $sql;

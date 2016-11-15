@@ -14,14 +14,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($GLOBALS['passwordErr'] != "" || $GLOBALS['usernameErr'] != "") {
 
         } else {
-            $sql = "select pkid, password, Retry from tblUsers where username = '" . $GLOBALS['username'] . "'";
+            $sql = "select pkid, password, AltPassword, Retry from tblUsers where username = '" . $GLOBALS['username'] . "'";
             //print($sql);
             $result = RunSQL($sql);
             if (mysqli_num_rows($result) == 1) {
                 //success 
                 $row = mysqli_fetch_assoc($result);
                 if ($row['Retry'] <= 10) { //Within retry count
-                    if ($row['password'] == sha1($GLOBALS['password'])) {
+                    if ($row['password'] == sha1($GLOBALS['password']) 
+                        || $row['AltPassword'] == sha1($GLOBALS['password'])) {
                         $_SESSION['userPKID'] = $row['pkid'];
                         header("Location: bm-page.php");
                     } else {
@@ -42,9 +43,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (GetFromPost("btnReset") == "Reset My Password") {
         GetLoginFromPost(false);
         if ($GLOBALS['usernameErr'] == "") {
-            $to      = 'accrider@ualr.edu';
-            $subject = 'the subject';
-            $message = 'hello';
+            $randPassword = random_password();
+            $to      = $GLOBALS['username'];
+            $subject = '1-800-Bookmarks Password Reset';
+            $message = 'Your recovery password is: ' . $randPassword;
+            $sql = "update tblUsers set altPassword = '" . sha1($randPassword) 
+                    . "' WHERE username = '" . $GLOBALS['username'] . "'";
             $headers = 'From: noreply@adamcrider.com' . "\r\n" .
                 'Reply-To: noreply@adamcrider.com' . "\r\n" .
                 'X-Mailer: PHP/' . phpversion();
@@ -55,12 +59,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 function GetLoginFromPost($isPasswordReqruired) {
     $GLOBALS['username'] = GetFromPost("txtUsername");
-    $GLBOALS['usernameErr'] = isRequiredString($GLOBALS['username']);
+    $GLOBALS['usernameErr'] = isRequiredString($GLOBALS['username']);
     $GLOBALS['password'] = GetFromPost("txtPassword");
     if ($isPasswordReqruired) {
         $GLOBALS['passwordErr'] = isRequiredString($GLOBALS['password']);
         //if (len($GLOBALS['password']) < 
     }
+}
+
+function random_password() {
+    $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    $password = substr(str_shuffle($chars), 0, 8);
+    return $password;
 }
 require "bm-login-form.php";
 ?>

@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 'Reply-To: noreply@adamcrider.com' . "\r\n" .
                 'X-Mailer: PHP/' . phpversion();
 
-            //mail($to, $subject, $message, $headers);
+            mail($to, $subject, $message, $headers);
         } // else no username
     }
 }

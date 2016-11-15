@@ -735,3 +735,4 @@
 2016-11-15T13:51:03-06:00  [main] FATAL Call to undefined function len() in C:\data\IFSC4399\ifsc4399\final\bm-login.php line: 58 
 2016-11-15T13:51:14-06:00  [main] WARN mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\data\IFSC4399\ifsc4399\final\bm-login.php line: 52 
 2016-11-15T13:51:55-06:00  [main] WARN mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\data\IFSC4399\ifsc4399\final\bm-login.php line: 52 
+2016-11-15T14:08:36-06:00  [main] TRACE runSQL - SQL=update tblUsers set AltPassword = '31a5a3022bd3681348f1aeecd7b0af5d77b4d0e9' WHERE username = 'accrider@ualr.edu' 

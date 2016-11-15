@@ -47,13 +47,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $to      = $GLOBALS['username'];
             $subject = '1-800-Bookmarks Password Reset';
             $message = 'Your recovery password is: ' . $randPassword;
-            $sql = "update tblUsers set altPassword = '" . sha1($randPassword) 
+            $sql = "update tblUsers set AltPassword = '" . sha1($randPassword) 
                     . "' WHERE username = '" . $GLOBALS['username'] . "'";
+            runSQL($sql);
             $headers = 'From: noreply@adamcrider.com' . "\r\n" .
                 'Reply-To: noreply@adamcrider.com' . "\r\n" .
                 'X-Mailer: PHP/' . phpversion();
 
-            mail($to, $subject, $message, $headers);
+            //mail($to, $subject, $message, $headers);
         } // else no username
     }
 }

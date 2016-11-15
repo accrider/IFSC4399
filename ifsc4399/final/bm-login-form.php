@@ -15,13 +15,13 @@
     <div class="formcontainer">
       <h1>1-800-Bookmarks - Login</h1>
       <span class="formlabel">Username: </span>
-      <span class="forminput"><input type="text" name="txtusername" value=""></span>
-      <span class="formerror"></span>
+      <span class="forminput"><input type="text" name="txtUsername" value=""></span>
+      <span class="formerror"><?php echo $GLOBALS['usernameErr'] ?></span>
       <br>
       <br>
       <span class="formlabel">Password: </span>
-      <span class="forminput"><input type="password" name="txtpassword"></span>
-      <span class="formerror"></span>
+      <span class="forminput"><input type="password" name="txtPassword"></span>
+      <span class="formerror"><?php echo $GLOBALS['passwordErr'] ?></span>
       <br>
       <br>
       <p>

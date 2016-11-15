@@ -2,10 +2,9 @@
 require "log4php-library.php"; 
 require "datatype-validation-library.php";
 require "bm-database-library.php";
-
-$_SESSION['username'] = 'accrider@ualr.edu';
-$_SESSION['userPKID'] = 1;
-
+if (!isset($_SESSION['userPKID'])) {
+    header("Location: index.php");
+}
 // reset the Globals
 $GLOBALS['search'] = "";
 $GLOBALS['searchErr'] = "";
@@ -18,6 +17,10 @@ $sq = "'";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (GetFromPost("btnProfile") == "Edit My Profile") {
             header("Location: bm-profile.php");
+    }
+    if (GetFromPost("btnLogoff") == "Logoff") {
+        session_destroy();
+        header("Location: index.php");
     }
     //  Get Last Name value and error message
     $GLOBALS['search'] = GetFromPOST("txtsearch");

@@ -2,9 +2,9 @@
 require "log4php-library.php"; 
 require "datatype-validation-library.php";
 require "bm-database-library.php";
-
-$_SESSION['userPKID'] = 1;
-
+if (!isset($_SESSION['userPKID'])) {
+    header("Location: index.php");
+}
 // reset the Globals
 $GLOBALS['search'] = "";
 $GLOBALS['searchErr'] = "";

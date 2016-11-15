@@ -2,9 +2,9 @@
 require "log4php-library.php"; 
 require "datatype-validation-library.php";
 require "bm-database-library.php";
-
-$_SESSION["username"] = "Adam";
-$logger->trace("Beginning Edit Contacts...");
+if (!isset($_SESSION['userPKID'])) {
+    header("Location: index.php");
+}
 
 // Initialize all of the GLOBALS variables
 $GLOBALS['PKID'] = "";

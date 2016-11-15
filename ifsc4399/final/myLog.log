@@ -575,3 +575,100 @@
 2016-11-10T17:26:11-06:00 accrider@ualr.edu [main] TRACE runSQL - SQL=update tblUsers set  Firstname = 'Adam2',  Lastname = 'Crider',  Username = 'accrider@ualr.edu' WHERE PKID = 1 
 2016-11-10T17:26:12-06:00 accrider@ualr.edu [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
 2016-11-10T17:35:15-06:00 accrider@ualr.edu [main] WARN require(bm-login-form.php): failed to open stream: No such file or directory in C:\data\IFSC4399\ifsc4399\final\bm-login.php line: 9 
+2016-11-10T17:52:10-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-10T17:52:10-06:00  [main] FATAL Call to undefined function mysqli_connect() in C:\data\IFSC4399\ifsc4399\final\bm-database-library.php line: 12 
+2016-11-10T17:54:17-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-10T17:55:57-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-10T17:56:00-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-10T17:56:00-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:00-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:00-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:00-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:11-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-10T17:56:12-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:12-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:12-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:12-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:12-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-10T17:56:13-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:13-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:13-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:13-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:17-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-10T17:56:17-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:17-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:17-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:17-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:32-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-10T17:56:33-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:33-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:33-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:33-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T17:56:37-06:00  [main] TRACE runSQL - SQL=select pkid from tblUsers where username = '' and password = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' 
+2016-11-10T17:56:42-06:00  [main] TRACE runSQL - SQL=select pkid from tblUsers where username = '' and password = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' 
+2016-11-10T17:57:21-06:00  [main] TRACE runSQL - SQL=select pkid from tblUsers where username = '' and password = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' 
+2016-11-10T17:57:57-06:00  [main] TRACE runSQL - SQL=select pkid from tblUsers where username = '' and password = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' 
+2016-11-10T17:58:04-06:00  [main] TRACE runSQL - SQL=select pkid from tblUsers where username = '' and password = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' 
+2016-11-10T17:58:33-06:00  [main] TRACE runSQL - SQL=select pkid from tblUsers where username = '' and password = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' 
+2016-11-10T18:04:28-06:00  [main] TRACE runSQL - SQL=select pkid from tblUsers where username = 'bullshit' and password = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' 
+2016-11-10T18:05:34-06:00  [main] TRACE Undefined variable: GLOBAL in C:\data\IFSC4399\ifsc4399\final\bm-login.php line: 12 
+2016-11-10T18:05:34-06:00  [main] TRACE runSQL - SQL=select pkid from tblUsers where username = 'accrider@ualr.edu' and password = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' 
+2016-11-10T18:05:48-06:00  [main] TRACE runSQL - SQL=select pkid from tblUsers where username = 'accrider@ualr.edu' and password = 'dc724af18fbdd4e59189f5fe768a5f8311527050' 
+2016-11-10T18:07:07-06:00  [main] TRACE runSQL - SQL=select pkid from tblUsers where username = 'accrider@ualr.edu' and password = '5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8' 
+2016-11-10T18:10:12-06:00  [main] TRACE runSQL - SQL=select pkid from tblUsers where username = 'accrider@ualr.edu' and password = '5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8' 
+2016-11-10T18:10:12-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-10T18:10:25-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-10T18:10:25-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T18:10:25-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T18:10:25-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-10T18:10:25-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-15T12:54:27-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-15T12:54:27-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-15T12:54:27-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-15T12:54:27-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-15T12:54:27-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-15T12:54:34-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-15T12:54:34-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-15T12:54:34-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-15T12:54:34-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-15T12:54:34-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-15T12:54:40-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-15T12:54:42-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-15T12:54:42-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-15T12:54:42-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-15T12:54:42-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 116 
+2016-11-15T12:54:46-06:00  [main] TRACE runSQL - SQL=select pkid from tblUsers where username = 'accrider@ualr.edu' and password = 'dc724af18fbdd4e59189f5fe768a5f8311527050' 
+2016-11-15T12:54:50-06:00  [main] TRACE runSQL - SQL=select pkid from tblUsers where username = 'accrider@ualr.edu' and password = '5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8' 
+2016-11-15T12:54:51-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-15T12:55:23-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-15T12:55:23-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 117 
+2016-11-15T12:55:23-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 117 
+2016-11-15T12:55:23-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 117 
+2016-11-15T12:55:23-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 117 
+2016-11-15T12:55:34-06:00  [main] TRACE runSQL - SQL=select pkid from tblUsers where username = 'accrider@ualr.edu' and password = '5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8' 
+2016-11-15T12:55:34-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-15T12:55:38-06:00  [main] TRACE Undefined index: firstname in C:\data\IFSC4399\ifsc4399\final\bm-signup-form.php line: 16 
+2016-11-15T12:55:38-06:00  [main] TRACE Undefined index: firstnameErr in C:\data\IFSC4399\ifsc4399\final\bm-signup-form.php line: 17 
+2016-11-15T12:55:38-06:00  [main] TRACE Undefined index: lastname in C:\data\IFSC4399\ifsc4399\final\bm-signup-form.php line: 19 
+2016-11-15T12:55:38-06:00  [main] TRACE Undefined index: lastnameErr in C:\data\IFSC4399\ifsc4399\final\bm-signup-form.php line: 20 
+2016-11-15T12:55:38-06:00  [main] TRACE Undefined index: username in C:\data\IFSC4399\ifsc4399\final\bm-signup-form.php line: 22 
+2016-11-15T12:55:38-06:00  [main] TRACE Undefined index: usernameErr in C:\data\IFSC4399\ifsc4399\final\bm-signup-form.php line: 23 
+2016-11-15T12:55:38-06:00  [main] TRACE Undefined index: passwordErr in C:\data\IFSC4399\ifsc4399\final\bm-signup-form.php line: 26 
+2016-11-15T12:55:38-06:00  [main] TRACE Undefined index: confirmPasswordErr in C:\data\IFSC4399\ifsc4399\final\bm-signup-form.php line: 29 
+2016-11-15T12:55:38-06:00  [main] TRACE Undefined index: errorMessage in C:\data\IFSC4399\ifsc4399\final\bm-signup-form.php line: 31 
+2016-11-15T12:55:38-06:00  [main] TRACE Undefined index: buttons in C:\data\IFSC4399\ifsc4399\final\bm-signup-form.php line: 34 
+2016-11-15T13:08:33-06:00  [main] TRACE Undefined variable: GLBOALS in C:\data\IFSC4399\ifsc4399\final\bm-login.php line: 14 
+2016-11-15T13:08:33-06:00  [main] TRACE Undefined variable: GLBOALS in C:\data\IFSC4399\ifsc4399\final\bm-login.php line: 14 
+2016-11-15T13:08:33-06:00  [main] TRACE runSQL - SQL=select pkid, password, retry from tblUsers where username = 'accrider@ualr.edu' 
+2016-11-15T13:08:33-06:00  [main] TRACE Undefined index: Retry in C:\data\IFSC4399\ifsc4399\final\bm-login.php line: 23 
+2016-11-15T13:08:33-06:00  [main] TRACE runSQL - SQL=update tblUsers set Retry = Retry + 1 where username = 'accrider@ualr.edu' 
+2016-11-15T13:10:06-06:00  [main] TRACE runSQL - SQL=select pkid, password, retry from tblUsers where username = 'accrider@ualr.edu' 
+2016-11-15T13:10:07-06:00  [main] TRACE Undefined index: Retry in C:\data\IFSC4399\ifsc4399\final\bm-login.php line: 23 
+2016-11-15T13:10:07-06:00  [main] TRACE runSQL - SQL=update tblUsers set Retry = Retry + 1 where username = 'accrider@ualr.edu' 
+2016-11-15T13:10:28-06:00  [main] TRACE runSQL - SQL=select pkid, password, Retry from tblUsers where username = 'accrider@ualr.edu' 
+2016-11-15T13:10:28-06:00  [main] TRACE runSQL - SQL=update tblUsers set Retry = Retry + 1 where username = 'accrider@ualr.edu' 
+2016-11-15T13:10:39-06:00  [main] TRACE runSQL - SQL=select pkid, password, Retry from tblUsers where username = 'accrider@ualr.edu' 
+2016-11-15T13:10:40-06:00  [main] TRACE runSQL - SQL=update tblUsers set Retry = Retry + 1 where username = 'accrider@ualr.edu' 
+2016-11-15T13:10:43-06:00  [main] TRACE runSQL - SQL=select pkid, password, Retry from tblUsers where username = 'accrider@ualr.edu' 
+2016-11-15T13:15:17-06:00  [main] WARN mail(): &quot;sendmail_from&quot; not set in php.ini or custom &quot;From:&quot; header missing in C:\data\IFSC4399\ifsc4399\final\bm-login.php line: 49 
+2016-11-15T13:16:22-06:00  [main] WARN mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\data\IFSC4399\ifsc4399\final\bm-login.php line: 52 

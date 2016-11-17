@@ -2,18 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Contacts Pages">
+    <meta name="description" content="Bookmark Manager">
     <meta name="keywords" content="HTML, CSS, PHP">
-    <meta name="author" content="Bruce Bauer">
-    <title>Contact List</title>
-    <link rel="stylesheet" type="text/css" href="assets/style/contacts.css">
+    <meta name="author" content="Adam Crider">
+    <title>Bookmark Edit</title>
+    <link rel="stylesheet" type="text/css" href="assets/style/bookmarks.css">
 </head>
 <body>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>?pkid=<?php echo $GLOBALS['PKID'] ?>">
     <div class="formcontainer">
-    <h1>Contact</h1>
+    <h1>1-800-Bookmarks - Edit</h1>
     <fieldset id="detail">
-    <legend>Contacts:</legend>
+    <legend>Bookmarks:</legend>
       
     <div id="leftdetail">
     

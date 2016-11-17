@@ -11,9 +11,7 @@ $GLOBALS['passwordErr'] = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (GetFromPost("btnLogin") == "Login") {
         GetLoginFromPost(true);
-        if ($GLOBALS['passwordErr'] != "" || $GLOBALS['usernameErr'] != "") {
-
-        } else {
+        if ($GLOBALS['passwordErr'] == "" && $GLOBALS['usernameErr'] == "") {
             $sql = "select pkid, password, AltPassword, Retry from tblUsers where username = '" . $GLOBALS['username'] . "'";
             //print($sql);
             $result = RunSQL($sql);
@@ -23,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 if ($row['Retry'] <= 10) { //Within retry count
                     if ($row['password'] == sha1($GLOBALS['password']) 
                         || $row['AltPassword'] == sha1($GLOBALS['password'])) {
+                        runSQL("update tblUsers set LoginDate = CURRENT_TIMESTAMP, Retry = 0 where username = '" . $GLOBALS['username'] . "'");
                         $_SESSION['userPKID'] = $row['pkid'];
                         header("Location: bm-page.php");
                     } else {
@@ -55,7 +54,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 'X-Mailer: PHP/' . phpversion();
 
             mail($to, $subject, $message, $headers);
-        } // else no username
+
+            $sql = "update tblUsers set Retry = 0 where username = '" . $GLOBALS['username'] . "'";
+            RunSQL($sql);
+        } // else no username, let it show error
     }
 }
 function GetLoginFromPost($isPasswordReqruired) {

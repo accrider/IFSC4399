@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Contacts Pages">
-  <meta name="keywords" content="HTML, CSS, PHP">
-  <meta name="author" content="Bruce Bauer">
-  <title>Contact List</title>
-  <link rel="stylesheet" type="text/css" href="assets/style/contacts.css">
+    <meta name="description" content="Bookmark Manager">
+    <meta name="keywords" content="HTML, CSS, PHP">
+    <meta name="author" content="Adam Crider">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="assets/style/bookmarks.css">
 </head>
 
 <body>

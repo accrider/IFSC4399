@@ -1,0 +1,15 @@
+2016-11-15T14:18:14-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-15T14:18:14-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 117 
+2016-11-15T14:18:14-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 117 
+2016-11-15T14:18:14-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 117 
+2016-11-15T14:18:14-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 117 
+2016-11-15T14:18:14-06:00  [main] TRACE Undefined index: userPKID in C:\data\IFSC4399\ifsc4399\final\bm-page.php line: 117 
+2016-11-15T14:18:21-06:00  [main] TRACE runSQL - SQL=select pkid, password, AltPassword, Retry from tblUsers where username = 'accrider@ualr.edu' 
+2016-11-15T14:18:22-06:00  [main] TRACE runSQL - SQL=update tblUsers set LoginDate = CURRENT_TIMESTAMP where username = 'accrider@ualr.edu' 
+2016-11-15T14:18:22-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-15T14:18:56-06:00  [main] TRACE runSQL - SQL=SELECT * FROM tblBookmarks WHERE tags LIKE '%%%' and userPKID = 1 LIMIT 15 OFFSET 0 
+2016-11-15T14:18:59-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-15T14:19:06-06:00  [main] TRACE runSQL - SQL=SELECT * FROM tblBookmarks WHERE tags LIKE '%%%' and userPKID = 1 LIMIT 15 OFFSET 0 
+2016-11-15T14:19:10-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 
+2016-11-15T14:19:15-06:00  [main] TRACE runSQL - SQL=SELECT * FROM tblBookmarks where pkid=5 
+2016-11-15T14:19:22-06:00  [main] TRACE runSQL - SQL=select * from tblBookmarks LIMIT 15 OFFSET 0 

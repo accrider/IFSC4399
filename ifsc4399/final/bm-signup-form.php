@@ -2,16 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Contacts Pages">
+    <meta name="description" content="Bookmark Manager">
     <meta name="keywords" content="HTML, CSS, PHP">
-    <meta name="author" content="Bruce Bauer">
-    <title>Contact List</title>
-    <link rel="stylesheet" type="text/css" href="assets/style/contacts.css">
+    <meta name="author" content="Adam Crider">
+    <title>Signup</title>
+    <link rel="stylesheet" type="text/css" href="assets/style/bookmarks.css">
 </head>
 <body>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
     <div class="formcontainer">
-        <h1>1-800-Bookmarks - My Profile</h1>
+        <h1>1-800-Bookmarks - Signup</h1>
         <span class="formlabel">First Name: </span>
         <span class="forminput"><input type="text" name="txtfirstname" value="<?php echo $GLOBALS['firstname'] ?>"></span>
         <span class="formerror"><?php echo $GLOBALS['firstnameErr'] ?></span><br><br>

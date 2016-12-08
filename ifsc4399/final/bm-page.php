@@ -132,9 +132,12 @@ function FormatBookmarkList($result) {
 function SelectBookMarkList ()  {
     $sq = "'";
     
-    // If a last name is present, then use a "LIKE" clause
     if ($GLOBALS['search'] == "") {
-        $sql = "select * from tblBookmarks LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
+        if (GetFromPost("pubpriv") == "public") {
+            $sql = "select * from tblBookmarks LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
+        } else {
+            $sql = "select * from tblBookmarks WHERE userPKID = " . $_SESSION['userPKID'] . " LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
+        }
     } else {
         if (GetFromPost("pubpriv") == "private") {
             $sql = "SELECT * FROM tblBookmarks WHERE tags LIKE " . $sq . "%" . $GLOBALS['search'] . "%" . $sq . " and userPKID = " . $_SESSION['userPKID'] ." LIMIT " . $_SESSION['pagesize'] . " OFFSET " . $_SESSION['offset'];
